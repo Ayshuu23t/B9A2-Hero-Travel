@@ -240,6 +240,77 @@ width: 503px;
     margin-left: 200px;
 
 }
+.box{
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    width: 454px;
+height: 400px;
+flex-shrink: 0;
+background-color: #FFF;
+padding-top: 10px;
+padding-left: 20px;
+}
+.box-img {
+    border-radius: 16px;
+    width: 662px;
+    height: 400px;
+    flex-shrink: 0;
+
+}
+.box-content {
+    margin-top: 30px;
+    display: flex;
+    margin-left: 150px;
+    gap: 30px;
+    
+}
+.box-h {
+    color: #131318;
+font-size: 20px;
+
+}
+.box-p {
+    color: #5A5A5D;
+font-size: 10px;
+font-weight: 400;
+line-height: 26px; 
+}
+
+.input-name {
+    width: 393px;
+height: 52px;
+flex-shrink: 0;
+border-radius: 8px;
+background: rgba(19, 19, 24, 0.05);
+color: rgba(19, 19, 24, 0.30);
+font-size: 16px;
+margin-top: 40px;
+text-align: center;
+}
+.input-email {
+    text-align: center;
+    margin-top: 40px;
+    width: 393px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    color: rgba(19, 19, 24, 0.30);
+    font-size: 16px;
+}
+.input-btn {
+    border-radius: 8px;
+    background: #FF5400;
+    width: 390px;
+height: 50px;
+flex-shrink: 0;
+color: #FFF;
+text-align: center;
+margin-top: 40px;
+font-size: 15px;
+}
+
+
 
 
 
@@ -262,6 +333,8 @@ width: 503px;
      .features {
         display: block;
      }
+     
+     
      .choose-img {
         display: grid;
         grid-template-columns: repeat(1fr);
@@ -282,5 +355,14 @@ width: 503px;
      .card-2{
         margin: auto;
      }
-
+     .box-content{
+        display: block;
+        margin: auto;
+    
+     }
+     .box {
+        width: 375px;
+height: 429px;
+     }
+     
 }
