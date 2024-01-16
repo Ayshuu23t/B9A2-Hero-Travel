@@ -48,8 +48,8 @@ flex-shrink: 0;
 
 }
 
-/* main part */
-section {
+
+.banner {
 background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),url('../Images/Group\ 13\ \(1\)\ \(1\).png');
    background-repeat: no-repeat;
    width: 1170px;
@@ -60,14 +60,14 @@ margin: auto;
 padding-top: 50px;
 }
 
-section h3 {
+.banner-h{
     color: #FFF;
     font-size: 50px;
     font-weight: 800;
     text-align: center;
 }
 
-section p {
+.banner-p {
     color: #FFF;
 font-size: 16px;
 font-weight: 400;
@@ -98,4 +98,44 @@ color: rgba(19, 19, 24, 0.50);
 font-family: Mulish;
 font-size: 16px;
 font-weight: 400;
+}
+
+/* main part*/
+.features {
+    display: flex;
+    margin-top: 40px;
+}
+
+.features-img {
+    width: 550px;
+heborder-radius: 16px;
+background: url(<path-to-image>), lightgray 50% / cover no-repeat;ight: 550px;
+flex-shrink: 0;
+margin-right: 150px;
+
+}
+.features-content {
+    margin-left: 150px;
+}
+
+.features-h{
+    color: #131318;
+font-family: Mulish;
+font-size: 40px;
+}
+.features-p {
+    color: rgba(19, 19, 24, 0.70);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px; 
+}
+.btn1 {
+    color: #FFF;
+font-family: Mulish;
+font-size: 15px;
+width: 130px;
+height: 30px;
+flex-shrink: 0;
+border-radius: 5px;
+background: #FF5400;
 }
