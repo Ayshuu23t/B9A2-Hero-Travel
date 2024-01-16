@@ -252,7 +252,7 @@ padding-left: 20px;
 }
 .box-img {
     border-radius: 16px;
-    width: 662px;
+    width: 602px;
     height: 400px;
     flex-shrink: 0;
 
@@ -355,6 +355,7 @@ font-weight: 300;
 
 
 @media screen and (max-width:600px) {
+    
      .banner {
         width: 385px;
         height: 483px;
@@ -367,14 +368,19 @@ font-weight: 300;
      }
      .input {
         display: grid;
-        grid-template-columns: repeat(1fr);
+        grid-template-columns: repeat(1 ,1fr);
+        margin-left: 100px; 
         
+    
+
      }
      .features {
         display: block;
      }
      
-     
+     .features-content{
+        margin-left: 10px;
+     }
      .choose-img {
         display: grid;
         grid-template-columns: repeat(1fr);
@@ -404,10 +410,19 @@ font-weight: 300;
         width: 375px;
 height: 429px;
      }
+     
+     
      .content-last{
         width: 375px;
 height: 309px;
 flex-shrink: 0;
      }
-     
+     .fot-p1{
+        padding: 40px;
+     }
+     .box-img {
+        width:300px;
+        height: 290px;
+        
+     }
 }
