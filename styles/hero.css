@@ -510,6 +510,28 @@ background: rgba(255, 255, 255, 0.80);
 backdrop-filter: blur(2.5px);
 
 }
+.discount-deals3 {
+    width: 559px;
+    height: 369px;
+    flex-shrink: 0; 
+    border-radius: 16px;
+border: 2px solid #FFF;
+background: rgba(255, 255, 255, 0.80);
+backdrop-filter: blur(2.5px);
+margin-left: 500px;
+}
+.dis-deals {
+    border-radius: 16px;
+    background: url(../Images/Group\ 39.png), lightgray 50% / cover no-repeat;
+    background-repeat: no-repeat;
+    width: 1170px;
+height: 500px;
+flex-shrink: 0;
+margin-left: 130px;
+margin-top: 30px;
+
+}
+
 
 
 @media screen and (max-width:600px) {
