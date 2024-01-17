@@ -14,7 +14,9 @@ nav {
     
 
 }
-
+  .frm-icn {
+    display: none;
+  }
 nav > ul {
     display: flex;
     margin-top: 63px;
@@ -120,7 +122,6 @@ font-weight: 400;
     flex-shrink: 0; 
 border-radius: 16px;
 background: url(<path-to-image>), lightgray 50% / cover no-repeat;ight: 550px;
-flex-shrink: 0;
 margin-right: 150px;
 
 }
@@ -174,6 +175,7 @@ line-height: 26px;}
     justify-content: center;
     display: flex;
     column-gap: 12px;
+    
     
     
 }
@@ -286,7 +288,7 @@ line-height: 26px;
     width: 393px;
 height: 52px;
 flex-shrink: 0;
-border-radius: 8px;
+border-radius: 6px;
 background: rgba(19, 19, 24, 0.05);
 color: rgba(19, 19, 24, 0.30);
 font-size: 16px;
@@ -299,13 +301,13 @@ text-align: center;
     width: 393px;
     height: 52px;
     flex-shrink: 0;
-    border-radius: 8px;
+    border-radius: 6px;
     background: rgba(19, 19, 24, 0.05);
     color: rgba(19, 19, 24, 0.30);
     font-size: 16px;
 }
 .input-btn {
-    border-radius: 8px;
+    border-radius: 6px;
     background: #FF5400;
     width: 390px;
 height: 50px;
@@ -428,11 +430,29 @@ flex-shrink: 0;
     width: 276px;
     padding: 167px;
 }
+.deals-h {
+    color: #131318;
+text-align: center;
+font-size: 30px;
+}
+.deals-p{
+    color: rgba(19, 19, 24, 0.70);
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+}
 
 
 @media screen and (max-width:600px) {
-    
-     .banner {
+    nav > ul{
+        display:none;
+    }
+  .frm-icn{
+    display: flex;
+  }
+
+    .banner {
         width: 385px;
         height: 483px;
          }
@@ -445,11 +465,11 @@ flex-shrink: 0;
      .input {
         display: grid;
         grid-template-columns: repeat(1 ,1fr);
-        margin-left: 100px; 
+        margin-left: 100px;
         
-    
-
-     }
+    }
+     
+        
      .features {
         display: block;
      }
@@ -457,25 +477,45 @@ flex-shrink: 0;
      .features-content{
         margin-left: 10px;
      }
+     .features-img {
+        
+     }
      .choose-img {
-        display: grid;
-        grid-template-columns: repeat(1fr);
+        display: block;
+        
+
      }
      .choose-img2 {
-        display: grid;
-        grid-template-columns: repeat(1fr);
-     }
+       display: block;
+       
+    }
      .choose-img3{
-        display: grid;
-        grid-template-columns: repeat(1fr);
+        display: block;
+
      }
      .card-content{
         display: block;
         margin: auto;
         
      }
+     .card {
+        width: 320px;
+      height: 280px;
+       flex-shrink: 0;
+       margin-top: 20px;
+     }
+     .card-1{
+        width: 320px;
+        height: 280px;
+        flex-shrink: 0;
+        margin-top: 20px;
+     }
      .card-2{
         margin: auto;
+        width: 320px;
+        height: 280px;
+        flex-shrink: 0;
+        margin-top: 20px;
      }
      .box-content{
         display: block;
@@ -498,10 +538,10 @@ flex-shrink: 0;
         padding: 40px;
      }
      .box-img {
-        width: 55%px;
-        height: 50%;
-        flex-shrink: 0;
-        margin-top: 30px;
+         margin-top: 30px;
+         width: 335px;
+height: 300px;
+flex-shrink: 0;
         
      }
      .bonus-content {
